@@ -1,0 +1,3 @@
+# This is a placeholder .gitlab-ci.yml which will ensure that GitLab CI
+# does not run. If you ever want to move over to GitLab CI, check out the
+# related .gitlab-ci.yml from the Pages Hexo template: https://gitlab.com/pages/hexo
