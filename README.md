@@ -1,15 +1,14 @@
----
-
 Example [GitBook] website using GitLab with [Netlify](https://www.netlify.com/).
-
----
 
 ## Netlify Configuration
 
 In order to build this site with Netlify, simply log in or register at 
 https://app.netlify.com/, then select "New site from Git" from the top
 right. Select GitLab, authenticate if needed, and then select this
-project from the list. Netlify will handle the rest.
+project from the list. 
+
+You will need to set the build command to `gitbook build` and set the publish
+directory to `_book`. Netlify will handle the rest.
 
 In the meantime, you can take advantage of all the great GitLab features
 like merge requests, issue tracking, epics, and everything else GitLab has
@@ -27,7 +26,7 @@ To work locally with this project, you'll have to follow the steps below:
 1. Generate the website: `gitbook build` (optional)
 1. Push your changes to the master branch: `git push`
 
-Read more at GitBook's [documentation][].
+Read more at GitBook's [documentation].
 
 ## Did you fork this project?
 
